@@ -1,0 +1,66 @@
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  position: relative;
+}
+.table {
+  border-collapse: collapse;
+  
+}
+.table, td, th {
+  border: 1px solid black;
+}
+.table th, .table tr > td {
+  padding: 0.7rem;
+}
+
+.table th {
+  font-size: 1.5rem;
+}
+.table td {
+  font-size: 1rem;
+}
+/* Table */
+.line
+{
+  background-color: #eeeeee;
+}
+.phanTable
+{
+  padding-left: 30%;
+}
+/* Form  */
+.heading {
+  text-align: center;
+  font-size: 40px;
+  background-color: green;
+}
+
+.form {
+  width: 400px;
+  margin: auto;
+
+}
+
+
+.button-Reg{
+  position: absolute;
+  border-radius: 0.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  margin: 10px 112.5px;
+  padding: 5px 50px;
+  border-radius: 10px;
+}
+.form .age {
+  position: relative;
+}
+
+.form .age::after {
+  content: 'tuổi';
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 3px;
+  font-size: 13px;
+}
