@@ -85,7 +85,7 @@
                 <td>
                     <label >Số điện thoại:</label>
                 </td>
-                <td><input type="text" name="numberphone" required></td>
+                <td><input type="text" name="phone" pattern="(\+84|0)\d{9,10}" required></td>
             </tr>
             <tr>
                 <td>
@@ -93,7 +93,12 @@
                 </td>
                 <td>
                     <div class="age">
-                        <input type="number" name="age" min="1" max="100">
+                        <select id="age" name="age">
+                            <option value="20old">20 tuổi</option>
+                            <option value="21old">21 tuổi</option>
+                            <option value="22old">22 tuổi</option>
+                            <option value="23old">23 tuổi</option>
+                          </select>
                     </div>
                 </td>
             </tr>
@@ -102,9 +107,9 @@
                     <label>Giới tính:</label>
                 </td>
                 <td>
-                    <input type="radio" name="gender"> <label>Nam</label>
+                    <input type="radio" name="gender" checked> <label>Nam</label>
                     <br>
-                    <input type="radio" name="gender" checked> <label>Nữ</label>
+                    <input type="radio" name="gender"> <label>Nữ</label>
                 
                 </td>
             </tr>
@@ -127,5 +132,6 @@
         </table>
         <button type="submit" class="button-Reg">Đăng ký</button>
     </form>
+
 </body>
 </html>

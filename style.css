@@ -55,12 +55,3 @@ body {
 .form .age {
   position: relative;
 }
-
-.form .age::after {
-  content: 'tuổi';
-  display: block;
-  position: absolute;
-  left: 20px;
-  top: 3px;
-  font-size: 13px;
-}
